@@ -20,6 +20,7 @@ class Explosion:
         self.sectors.extend(b.sectors)
         bombs.remove(b)
         self.bomb_chain(bombs, map, power_ups)
+        
 
     def bomb_chain(self, bombs, map, power_ups):
 
