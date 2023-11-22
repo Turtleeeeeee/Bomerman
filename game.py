@@ -1,17 +1,15 @@
-import pygame
-import sys
 import random
+import sys
 import tkinter as tk
-
 from tkinter import messagebox
-from enums.power_up_type import PowerUpType
-from player import Player
-from explosion import Explosion
+
+import pygame
+
 from enemy import Enemy
 from enums.algorithm import Algorithm
 from enums.map import Map
-from Map import CreateMap
-from power_up import PowerUp
+from explosion import Explosion
+from player import Player
 
 BACKGROUND_COLOR = (107, 142, 35)
 

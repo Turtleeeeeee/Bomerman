@@ -1,5 +1,6 @@
-import pygame
 import math
+
+import pygame
 
 from bomb import Bomb
 from enums.power_up_type import PowerUpType

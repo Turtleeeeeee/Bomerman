@@ -1,8 +1,10 @@
-import pygame
 import random
+
+import pygame
+
 from bomb import Bomb
-from node import Node
 from enums.algorithm import Algorithm
+from node import Node
 
 
 class Enemy:

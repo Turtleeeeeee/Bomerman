@@ -1,12 +1,13 @@
 import random
+
 import pygame
 import pygame_menu
+from pygame import mixer
 
 import game
+from Map import CreateMap
 from enums.algorithm import Algorithm
 from enums.map import Map
-from Map import CreateMap
-from pygame import mixer
 
 COLOR_BACKGROUND = (255, 184, 184)
 COLOR_BLACK = (0, 0, 0)
